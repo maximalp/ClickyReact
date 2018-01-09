@@ -1,13 +1,20 @@
 import React from "react";
+import './components.css';
 //import { Link } from "react-router-dom";
 
 
 const Navbar = props =>
 (
 <div>
-  <nav className="navbar navbar-default">
+  <nav className="navbar navbar-default navbar-fixed-top align-content-center">
+
     <div className="container-fluid">
-      <div className="navbar-header">
+      <div className="navbar-header align-content-center">
+        <span class="align-content-center">
+          <span class="ml-auto navbar-text"> {props.message} </span>
+          <span class="ml-auto navbar-text">Score: {props.score} </span>
+          <span class="ml-auto navbar-text">Top Score: {props.topScore} </span>
+
         <button
           type="button"
           className="navbar-toggle collapsed"
@@ -21,9 +28,9 @@ const Navbar = props =>
           <span className="icon-bar" />
           <span className="icon-bar" />
         </button>
-        <a className="navbar-brand" href="/">
-          Click Memory Game | {props.message} | Score: {props.score} | Top Score: {props.topScore}
-        </a>
+
+      </span>
+
 
 
       </div>

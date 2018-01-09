@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Spongebob-squarepants.svg/666px-Spongebob-squarepants.svg.png",
+    "url": "../img/gotImage1.jpeg",
     "clicked": false
 
   },
   {
     "id": 2,
-    "url": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
+    "url": "../img/gotImage2.jpeg",
     "clicked": false
 
   },
   {
     "id": 3,
-    "url": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+    "url": "../img/gotImage3.jpeg",
     "clicked": false
 
   },
@@ -21,7 +21,7 @@
   {
 
     "id": 4,
-    "url": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+    "url": "../img/gotImage4.jpeg",
     "clicked": false
 
   },
@@ -29,10 +29,74 @@
   {
 
     "id": 5,
-    "url": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+    "url": "../img/gotImage5.jpeg",
+    "clicked": false
+
+
+  },
+
+  {
+
+    "id": 6,
+    "url": "../img/gotImage6.jpeg",
+    "clicked": false
+
+
+  },
+
+  {
+
+    "id": 7,
+    "url": "../img/gotImage7.jpeg",
+    "clicked": false
+
+
+  },
+
+  {
+
+    "id": 8,
+    "url": "../img/gotImage8.jpeg",
+    "clicked": false
+
+
+  },
+
+  {
+
+    "id": 9,
+    "url": "../img/gotImage9.jpeg",
+    "clicked": false
+
+
+  },
+
+  {
+
+    "id": 10,
+    "url": "../img/gotImage10.jpeg",
+    "clicked": false
+
+
+  },
+
+  {
+
+    "id": 11,
+    "url": "../img/gotImage11.jpeg",
+    "clicked": false
+
+
+  },
+
+  {
+
+    "id": 12,
+    "url": "../img/gotImage12.jpeg",
     "clicked": false
 
 
   }
+
 
 ]

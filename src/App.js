@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import Navbar from './Components/Navbar';
 import GameHeader from './Components/GameHeader';
 import MainContainer from './Components/MainContainer';
@@ -38,22 +37,22 @@ class App extends Component {
     let topScore = this.state.topScore;
     let currentImages = this.state.images;
     const clickedImage = currentImages.find(image => image.id === id);
+
+
+
       if (clickedImage.clicked===false)
       {
         score++;
+          if (score > topScore)
+          {
+            topScore = score;
+          }
         clickedImage.clicked = true;
         message = "You guessed correctly!";
-
-      //  topScore += score;
       }
       else {
         currentImages.map(image => (image.clicked=false));
         message = "You guessed incorrectly!";
-            if (score > topScore)
-            {
-              topScore = score;
-            }
-
         score=0;
       }
 

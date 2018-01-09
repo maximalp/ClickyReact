@@ -5,7 +5,9 @@ import './components.css';
 const ImageBlock = props =>
 (
 
-<div className="card" onClick={() => props.handleClick(props.id)}>
+//thumbnail
+
+<div className="thumbnail" onClick={() => props.handleClick(props.id)}>
     <div className="img-container">
 
     <img alt={props.url} src={props.url} />
